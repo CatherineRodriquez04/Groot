@@ -4,19 +4,24 @@
 import turtle
 
 g = turtle.Turtle()
-#turtle.Screen().bgcolor("snow3")
 turtle.Screen().bgcolor("Dark Green")
 g.speed(1) #pause
+g.penup()
+g.forward(55)
+g.left(180)
+g.forward(55)
+g.left(180)
 g.pensize(3.5)
 g.penup()
 g.goto(-30, 30)
 g.pendown()
 
 #head
+g.speed(10.4)
+g.pendown()
 g.fillcolor('burlywood4')
 g.begin_fill()
 g.forward(55)
-g.speed(10.4)
 g.circle(120, 50)
 g.circle(40, 40)
 g.right(15)
@@ -737,7 +742,7 @@ g.circle(-6, 180)
 g.left(133)
 g.forward(10)
 g.penup()
-g.forward(20)
+g.forward(600)
 
 
 
